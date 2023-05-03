@@ -1,0 +1,2574 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ButtonTimer
+    - ChangeScene
+    - GameExclusive
+    - GameInclusive
+    - LoadRandomAv
+    - RandomAvSaveLoad
+    - UMA.O3nArmLowerLegTwistSlotScript
+    UMA_Content.dll:
+    - UMA.CapsuleColliderSlotScript
+    - UMA.Examples.LocomotionSlotScript
+    - UMA.ForearmTwistSlotScript
+    - UMA.HumanFemaleDNAConverterBehaviour
+    - UMA.HumanMaleDNAConverterBehaviour
+    - UMA.PoseTools.ExpressionSlotScript
+    UMA_Core.dll:
+    - UMA.BlendshapeDNAConverterPlugin
+    - UMA.BonePoseDNAConverterPlugin
+    - UMA.CharacterSystem.DynamicCharacterAvatar
+    - UMA.CharacterSystem.DynamicDNAConverterBehaviour
+    - UMA.CharacterSystem.UMAWardrobeCollection
+    - UMA.CharacterSystem.UMAWardrobeRecipe
+    - UMA.ColorDNAConverterPlugin
+    - UMA.DNARangeAsset
+    - UMA.DynamicDNAConverterController
+    - UMA.DynamicUMADnaAsset
+    - UMA.Dynamics.UMAPhysicsElement
+    - UMA.Examples.UMASimpleLOD
+    - UMA.MeshHideAsset
+    - UMA.MorphSetDnaAsset
+    - UMA.MorphSetDnaConverterBehaviour
+    - UMA.OverlayDataAsset
+    - UMA.PoseTools.UMABonePose
+    - UMA.PoseTools.UMAExpressionSet
+    - UMA.RaceData
+    - UMA.SharedColorTable
+    - UMA.SkeletonDNAConverterPlugin
+    - UMA.SlotDataAsset
+    - UMA.TextureMerge
+    - UMA.TutorialDNAConverterBehaviour
+    - UMA.UMAAssetIndexer
+    - UMA.UMAClothProperties
+    - UMA.UMADefaultMeshCombiner
+    - UMA.UMAGenerator
+    - UMA.UMAGlobalContext
+    - UMA.UMAMaterial
+    - UMA.UMAPhysicsSlotDefinition
+    - UMA.UMAPostProcess
+    - UMA.UMARandomAvatar
+    - UMA.UMARandomizer
+    - UMA.UMARendererAsset
+    - UMA.UMATextRecipe
+    - UMA.UmaTPose
+    UMA_Examples.dll:
+    - UMA.Examples.BRDFLookupTexture
+    - UMA.Examples.PonytailSlotScript
+    - UMA.Examples.UMAMouseOrbitImproved
+    - UMA.Examples.UMA_JiggleBelly
+    - UMA.Examples.UMA_JiggleBreasts
+    - UMA.Examples.UMA_JiggleButt
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.PhysicsRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/Assigned Avatar Scenes/1Welcome_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1620}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2350}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2464}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3028}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3478}
+    - Class: 114
+      Script: {instanceID: 3578}
+    - Class: 114
+      Script: {instanceID: 3628}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3854}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3904}
+    - Class: 114
+      Script: {instanceID: 3910}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 3982}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4032}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4110}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4336}
+    - Class: 114
+      Script: {instanceID: 4392}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 114
+      Script: {instanceID: 4560}
+    - Class: 114
+      Script: {instanceID: 148124}
+    - Class: 114
+      Script: {instanceID: 148126}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/2AvatarImport_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1834}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2492}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3182}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3852}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4202}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/3Exclusive_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2492}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2820}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 3988}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/3Survey_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2492}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3852}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4202}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/4Inclusive_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2492}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2820}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/4Survey_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2492}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3852}
+    - Class: 114
+      Script: {instanceID: 4202}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Assigned Avatar Scenes/5Finish_Assigned.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1556}
+    - Class: 114
+      Script: {instanceID: 1560}
+    - Class: 114
+      Script: {instanceID: 1562}
+    - Class: 114
+      Script: {instanceID: 1590}
+    - Class: 114
+      Script: {instanceID: 1714}
+    - Class: 114
+      Script: {instanceID: 1760}
+    - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
+      Script: {instanceID: 2182}
+    - Class: 114
+      Script: {instanceID: 2366}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2516}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 2736}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2898}
+    - Class: 114
+      Script: {instanceID: 2928}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3224}
+    - Class: 114
+      Script: {instanceID: 3252}
+    - Class: 114
+      Script: {instanceID: 3360}
+    - Class: 114
+      Script: {instanceID: 3776}
+    - Class: 114
+      Script: {instanceID: 3838}
+    - Class: 114
+      Script: {instanceID: 3860}
+    - Class: 114
+      Script: {instanceID: 3916}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4072}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4396}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 4d91e6ebfc7903f2c807e31b521e3cbb
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicSlotLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: f98bf7a5778a54e7d0e2eefd723f1a45
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Examples
+    className: UMASimpleLOD
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e6b24247084b7c82cf45151e51f2ced
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: O3nTwistBone
+  - hash:
+      serializedVersion: 2
+      Hash: 1cabd0567cb4f9986dd30ad302787933
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMA_JiggleBreasts
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: EnvPresetChooser
+  - hash:
+      serializedVersion: 2
+      Hash: 64d07aa57c863dc0530aba5aab45f615
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaRaceClip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bd40f423ddf852c41ed9244009c78302
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: SaveAndLoadSample
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaRaceTrack
+  - hash:
+      serializedVersion: 2
+      Hash: de977601ffaed905d0de9be58af0b00a
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMATextRecipe
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA
+    className: CapsuleColliderSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2762e0ef70e488ab07d12287eaef409f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UnityEngine.UI
+    className: DropdownWithColor
+  - hash:
+      serializedVersion: 2
+      Hash: 35f6de1a40de8489e8a0bb0666924330
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: TutorialDNAConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: b113cc7fa4a95031888fb042c1aa38f0
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 64823ef86819474029984943c68da63a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomAvSaveLoad
+  - hash:
+      serializedVersion: 2
+      Hash: f0786811516f7de8befd7a3e181e567a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene
+  - hash:
+      serializedVersion: 2
+      Hash: 0f7234b7b87b2024289c29ebd189856b
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UmaTPose
+  - hash:
+      serializedVersion: 2
+      Hash: 14df708213dc28ea6d561a1620d4bf3a
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaColorTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1bb3a7208772a9bd0300a292f5811e13
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DCARendererManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicCharacterSystemBase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: DNASliderHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3e44f715dcf21aa0ef4bc0cedeed4fb9
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: RaceLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: f9972ec995a2773edac4054b4a70a4e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterCreator
+  - hash:
+      serializedVersion: 2
+      Hash: a9ae99c51580f9a51dcd37d87af24b7b
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMARecipeCrowd
+  - hash:
+      serializedVersion: 2
+      Hash: 39fe46047d613de5db2031ea7af82c83
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMAPlayOnAwake
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UMA
+    className: O3nShoulderUpperLegTwistSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 92f7998d2a274c8ef9b0b90d32733646
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAAssetCollection
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: LogToText
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: b63e48e162644d1d1727f8ee60e6c6dd
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: ExpressionPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 5dad5573e7eb5196c0bd8cdd8d4c3f0e
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: DynamicUMADnaAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8bc115e5fa8688a4a841fc36e8435f35
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: PhotoBooth
+  - hash:
+      serializedVersion: 2
+      Hash: 072fa47a65982bd53c55f86b07fa5e50
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicAssetLoader
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 08ba80f424882afbb5b5abf5b974d0f5
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAGeneratorStub
+  - hash:
+      serializedVersion: 2
+      Hash: a76c09c3267b8be47b55015115b61c8d
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: DNADelegatesExample
+  - hash:
+      serializedVersion: 2
+      Hash: 8b74b4b1407821d7116a116ccb10ba65
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: StandAloneDNA
+  - hash:
+      serializedVersion: 2
+      Hash: de977601ffaed905d0de9be58af0b00a
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: UMADynamicCharacterAvatarRecipe
+  - hash:
+      serializedVersion: 2
+      Hash: 70151298526f8b456bcf907624d17a45
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: CollisionMatrixFixer
+  - hash:
+      serializedVersion: 2
+      Hash: efaede8b139f1f89ca120ac176e756e7
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: BtnGetAssetBundle
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: 305774ca6e2333b136dc14475da0c65e
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: MorphSetDnaConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 172cfdd977ca8a6f32932932c2f0d2ee
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAPostProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 9df60d63fd9402a1724f41557545ce7f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: SlotLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 1a8b014c1b7823127bf63a768d6922c3
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: OverallScaleDNAConverterPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 2787b0c9011aefc674fff815a71588e6
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAContext
+  - hash:
+      serializedVersion: 2
+      Hash: 6224f80267f7c453b5d0d766308f0e1b
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: Preloader
+  - hash:
+      serializedVersion: 2
+      Hash: e695ff88aff9d30a1a5d40d3fd72b5fc
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: UMABoneVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 7b829f9bd5f1580b5421bba886f94f93
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMA_JiggleBelly
+  - hash:
+      serializedVersion: 2
+      Hash: 3ecd4704050e90d57fc73c7b42fba110
+    assemblyName: UMA_Core.dll
+    namespaceName: 
+    className: UMAMountedItem
+  - hash:
+      serializedVersion: 2
+      Hash: 9f54e90afea28775ebea5ef289593867
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: DemoTextHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAFastMeshCombiner
+  - hash:
+      serializedVersion: 2
+      Hash: c6d94e38a727101dd467b56d57d9c12f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Dynamics.Examples
+    className: SmoothMouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 56843eb9ee7b4b52b6d35ff1addf086e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonTimer
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: be4ec0622715f891d4789e0152610698
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: UMAColorFader
+  - hash:
+      serializedVersion: 2
+      Hash: e4c16e1bc4afc24db5aaceee4c3e2339
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMARemoveComponents
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 417fcc060b5309690b8780585751172a
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: EnvPresetSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: a26b6acb8c5df4dd30caaf62426fe942
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: SampleCode
+  - hash:
+      serializedVersion: 2
+      Hash: 77ee883fd3871ef42ecce4017124a542
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicCharacterAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 39c851a775161ffcad4586dd3d8a03d0
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.AssetBundles
+    className: AssetBundleLoadingIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 75ecef520326c89b5bccf274e042f67e
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Dynamics.Examples
+    className: ClothHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 6a330b5b05a46fee8aad2e66ab80ab67
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: DNAHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e75791a8f87e3ba5c71fbd5b95a0e60f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: DynamicDNAConverterController
+  - hash:
+      serializedVersion: 2
+      Hash: 36e5dc7a6c3e0bcd9202e9ca54172d48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameInclusive
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 5dd5a13d859d84e0bfaa416dfef8553c
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem
+    className: DNAEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6971cec8849b4a441c729839adb300c0
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: SlotDataAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d8a7ebdc6f1e1d7a1adcc0b984a9ef3f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: DNAEvaluationGraphPresetLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: ce76aa8a7c05e2692b42a6c959784427
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadRandomAv
+  - hash:
+      serializedVersion: 2
+      Hash: 34703ca0e8a6d3ee736c04174226d853
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: UMAExtendedAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6b28828c686934db788dc03c9fe2679e
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: TestCustomizerDD
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: CameraTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 539e496f87f362cad3889018aae0cc30
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: WardrobeCollectionDemoUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 19472ef61271227516d65eef4772cf2f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaColorClip
+  - hash:
+      serializedVersion: 2
+      Hash: b7734cfea8259b0c9d2bb83d314aeb10
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMARandomAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 24256068546dc4b845d6802e52639c17
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: ConstructDCAFromAPrefab
+  - hash:
+      serializedVersion: 2
+      Hash: 1d675fe6ffb5c3985250f80f9a2b19e4
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMAExpressionSet
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d25c19a53adcabee97e24d091131baea
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: OverlayDataAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c6223733847fe27880a5c0e239d16b40
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: GeometrySelector
+  - hash:
+      serializedVersion: 2
+      Hash: 11e8b18ac06bb33d9bec36df55349939
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMADynamicExpressionBonePose
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 2be8815a5a6104a8719315a73780b835
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMARandomizer
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d0c78c98385c96783331df214084f5bc
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 439315cef03b88440a96104667fd5be6
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMALODDemoScript
+  - hash:
+      serializedVersion: 2
+      Hash: 03c2a12da6f72777620e3851724d48d7
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Dynamics
+    className: UMAPhysicsAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 9c672e56038635987eecdfb8ed968b25
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: BlendShapeDnaSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA
+    className: UMABoneCleaner
+  - hash:
+      serializedVersion: 2
+      Hash: 29db4ac4b7af3f8b879784aef89a7863
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAClothProperties
+  - hash:
+      serializedVersion: 2
+      Hash: 59caf09b42c01b2f1404194bbd0c8eea
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMAGlobalForceApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 9a6540cc93fae9cc5622312e47cf80a5
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: SceneWalker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAGlobalContext
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f9428c9fc39fc8c2321395bef1accf15
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Dynamics.Examples
+    className: UMAShooter
+  - hash:
+      serializedVersion: 2
+      Hash: e696362698b20fb876b3b4288d221365
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: MeshHideAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 85c1550286795e2d71fd72643010173d
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: TwistBones
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: ColorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71535be8f75b38969cab703a494d49a5
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: OverlayViewer
+  - hash:
+      serializedVersion: 2
+      Hash: b1e5d89d0b8e663783ffa394c855126f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMA_JiggleBoneDiagnostic
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 5d7baa2ce9af5746e6aeb964af9e10fa
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicCharacterSystem
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f6451624b68b753c1464a4f267f919e8
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: SharedColorTable
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7ec335ec030dae5308d981aaf7cf5c7b
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.PoseTools
+    className: SliderExpressionTest
+  - hash:
+      serializedVersion: 2
+      Hash: 554e33d4ed75243621feadbc0eed0de0
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMABonePose
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a7f2bb8ae915a179442e0c7f1a48a41c
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMACrowdRandomSet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: f5d0b5e769caa4ef65b27e9563148d95
+    assemblyName: UMA_Core.dll
+    namespaceName: 
+    className: UMASettingsProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 5600ad59807e94190b6017416c8dc9c7
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: CSWardrobeSlotChangerDD
+  - hash:
+      serializedVersion: 2
+      Hash: 08358964364c9abb8b7c9010991461fe
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: ClothAccelerationPanelScript
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 86796d7e1d184f305b5484783e3870fc
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: TextureMerge
+  - hash:
+      serializedVersion: 2
+      Hash: 24831ffb9b72637a03bcaabddf199201
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: WardrobeCollectionDemoBtn
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 69dea2b6f1924ac8e2ff535c45d4f08e
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.PoseTools
+    className: ActiveObjectSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3df2e208cca9bcd40bac2a491037080f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicDNAConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3c2718f81fcdda4277338804f0bf6ded
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMACharacterCustomization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: a2343872bf47aa8e7bdbb4a9f8eebde4
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: SpeedCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 60ba934bdb5a62597b136c94d2185b12
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: EnvPreset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 513b7d3430572456f561d60a66b9d5e4
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.PoseTools
+    className: EditModeExpressionPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 08ba80f424882afbb5b5abf5b974d0f5
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAGeneratorGLIB
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaWardrobeTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7c9c0431f9860888b8a969519265e45e
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Dynamics
+    className: UMAPhysicsElement
+  - hash:
+      serializedVersion: 2
+      Hash: a738673321aec7b534a40222f2cc3b1a
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: SwayRootBone
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6acadc5e5ae81bdaf18613caff65d5
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.AssetBundles
+    className: AssetBundleIndex
+  - hash:
+      serializedVersion: 2
+      Hash: 2d143e103df2247787ec7ae04cb6eb28
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Dynamics.Examples
+    className: FPSWalkerEnhanced
+  - hash:
+      serializedVersion: 2
+      Hash: 8c83c5b101bb58dfd93b5c115824569f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: AvailableColorsHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.AssetBundles
+    className: UMAAssetBundleManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: a56b086a205b84075ae4f71da0f18809
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem
+    className: DNAPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 075b4f2d3f8059f99026e7030f22bcb0
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMACustomization
+  - hash:
+      serializedVersion: 2
+      Hash: 7393a7c723cd3be98ec65c811c2eb8bb
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: WardrobeHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA.PoseTools
+    className: ExpressionSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 5ac840ea4ae2b5a969267cccbce4fbba
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMADynamicAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 364762a89005235fcc40ca3e690d462b
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMADynamicExpressionSet
+  - hash:
+      serializedVersion: 2
+      Hash: d87b72daa934316866b03090c55342e2
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA
+    className: UMAJiggleBone
+  - hash:
+      serializedVersion: 2
+      Hash: 0a5bffe6f281710368175ac31f7745f2
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMARendererAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 629199d8a8ac92b237cd4922baa22671
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaDnaClip
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 2656737042090ccf754811cde7d31424
+    assemblyName: UMA_Core.dll
+    namespaceName: 
+    className: UMARenderTextureMover
+  - hash:
+      serializedVersion: 2
+      Hash: e0a9e4fce5aa298b52c165c27d5988d9
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMADynamicExpressionPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: e41421dd83b1a210f3621fda56b96532
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicDNAConverterCustomizer
+  - hash:
+      serializedVersion: 2
+      Hash: 4b5d9a2caaef2c9ff6d31c9986413c6c
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: SkeletonDNAConverterPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaDnaTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UMA
+    className: O3nArmLowerLegTwistSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMARenderTextureManager
+  - hash:
+      serializedVersion: 2
+      Hash: 378c2f6f8a88ffd35d678228bfb8b1b8
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Integrations.PowerTools
+    className: UMALODConversionSet
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 35f6de1a40de8489e8a0bb0666924330
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA
+    className: HumanMaleDNAConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0661407c66ed115c40ce2790913da3e2
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: PonytailSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMADefaultMeshCombiner
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 49c52acb7f47d710ea04a8ba5283c037
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: ConstructDCAFromScratch
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: b08940ad52a4ce24f442e089c7194638
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAAssetIndexer
+  - hash:
+      serializedVersion: 2
+      Hash: f77d4b5162e15ab5d3108f1dadc18915
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: UMAWardrobeCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 427dba7cfd2afbcf809c12a1a1541cb3
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMADnaTweaker
+  - hash:
+      serializedVersion: 2
+      Hash: c3641fc75d48c3001faed760982be622
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: RaceData
+  - hash:
+      serializedVersion: 2
+      Hash: 97d5666b6ed5764bbfeb3eed7e775d05
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.AssetBundles
+    className: UMAEncryptedBundle
+  - hash:
+      serializedVersion: 2
+      Hash: 7b74c55ec237bc793c1513fe5561282c
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: SwayBone
+  - hash:
+      serializedVersion: 2
+      Hash: 35f6de1a40de8489e8a0bb0666924330
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: HumanoidDNAConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ce76aa8a7c05e2692b42a6c959784427
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadCustom
+  - hash:
+      serializedVersion: 2
+      Hash: 203dd20a3aeee195a25e89c3f4969138
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA
+    className: ForearmTwistSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: dcddeede0ce3708e5365068821c61bf3
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: ColorDNAConverterPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 36e5dc7a6c3e0bcd9202e9ca54172d48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameExclusive
+  - hash:
+      serializedVersion: 2
+      Hash: 64e3bb6fa42a95044f0a57261996f6c6
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: CSColorChangerDD
+  - hash:
+      serializedVersion: 2
+      Hash: fa2c01c464ce9d39bb0b42b4e10b6dc3
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: CSLoadableItem
+  - hash:
+      serializedVersion: 2
+      Hash: c9e897df07c3d2b1e455abbe357ebed1
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.Timeline
+    className: UmaWardrobeClip
+  - hash:
+      serializedVersion: 2
+      Hash: 5718b11cfd61b1e446dcd8917dda521a
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicRaceLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 589120b84c661ab23794147eebd4b3e7
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMA_JiggleButt
+  - hash:
+      serializedVersion: 2
+      Hash: f4cd01ffe37dc0d8cfaf5224f29d2ad7
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: BtnGetUMAAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f5407df6b667d2fcd137c300c41bcb62
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: MobileAddressablesSampleCode
+  - hash:
+      serializedVersion: 2
+      Hash: 8f4768cdf258e2b9e86b77d8340cfec1
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: DNARangeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA.Examples
+    className: LocomotionSlotScript
+  - hash:
+      serializedVersion: 2
+      Hash: 54ff484a77ce925b95d660585d056042
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMASlotVerifyWizard
+  - hash:
+      serializedVersion: 2
+      Hash: bc76e2379c9170e3a9b4e3db79a306f1
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: SeamRemoval
+  - hash:
+      serializedVersion: 2
+      Hash: e8ebb1b0828881eec87ec3eec4f588ec
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: DynamicOverlayLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Dynamics.Examples
+    className: CursorLock
+  - hash:
+      serializedVersion: 2
+      Hash: 1b4cfdda2ecac6d5f903c0517978af4b
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: SliderController
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2189424425d00431a684fa0e6f77df70
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: BonePoseDNAConverterPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 5a7e800a6fc2af1b057081efde6962ab
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMARecipeMixer
+  - hash:
+      serializedVersion: 2
+      Hash: 99e4905a4d300354617b3a4843d30123
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: OverlayLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 9005b99c3ec9ec84e7466a317c5211e5
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMAMouseOrbitImproved
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMATestEventsScript
+  - hash:
+      serializedVersion: 2
+      Hash: fdd4f086a921efa3aab85b49ccb3e971
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: WardrobeCollectionLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: BinaryAssetWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: fe667bfb769d44f7f0b87bc8df498123
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: UMAPhysicsSlotDefinition
+  - hash:
+      serializedVersion: 2
+      Hash: 524c0be6df65bf1187b95275a0b5d38a
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: AssetBundleLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 299d8d9547b07eaab2a997d7b32c9c2b
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA.Examples
+    className: Locomotion
+  - hash:
+      serializedVersion: 2
+      Hash: 6801691115392aebdce572d59863c737
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: MorphSetDnaAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e2e370e3a57ed966a41140d57fa73678
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.CharacterSystem
+    className: UMAWardrobeRecipe
+  - hash:
+      serializedVersion: 2
+      Hash: 13751c9ed5bbb2101521396e1652b5d0
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: BRDFLookupTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1851b34aaaf88f0d44cfa18cd844f9df
+    assemblyName: UMA_Examples.dll
+    namespaceName: 
+    className: UMADynamicBoneJiggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4593cbdf2df26e55a627dfb7194cc0c3
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.CharacterSystem.Examples
+    className: SlotHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 35f6de1a40de8489e8a0bb0666924330
+    assemblyName: UMA_Content.dll
+    namespaceName: UMA
+    className: HumanFemaleDNAConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: af391717c65982661d83c83e59d61f2b
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.PoseTools
+    className: UMAExpressionPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA.AssetBundles
+    className: AssetBundleManager
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 85aabb1222e2560c3a27db20b851a558
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: BlendshapeDNAConverterPlugin
+  - hash:
+      serializedVersion: 2
+      Hash: 242a3ce23e22b0997e09929cfc8b0733
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: UMACrowd
+  - hash:
+      serializedVersion: 2
+      Hash: f695ad42660abde9a27227f25c814a5c
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: HUDFPS
+  - hash:
+      serializedVersion: 2
+      Hash: 35f6de1a40de8489e8a0bb0666924330
+    assemblyName: UMA_Core.dll
+    namespaceName: UMA
+    className: DnaConverterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: eea11006ffc628b17470708ec353cfab
+    assemblyName: UMA_Examples.dll
+    namespaceName: UMA.Examples
+    className: LODDisplay
+  platform: 20
+  scenePathNames:
+  - Assets/Scenes/Assigned Avatar Scenes/1Welcome_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/2AvatarImport_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/3Exclusive_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/4Inclusive_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/3Survey_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/4Survey_Assigned.unity
+  - Assets/Scenes/Assigned Avatar Scenes/5Finish_Assigned.unity
+  playerPath: C:/Users/angel/Documents/Dissertation Building/WebGL Drafts/101821-Assigned
